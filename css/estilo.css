@@ -218,7 +218,7 @@ h4 {
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 391px) {
     header {
         height: 20vh;
         width: 100%;
@@ -297,6 +297,10 @@ h4 {
         gap: 3px;
     }
 
+    .header .titulo h1{
+        font-size: 30px;
+    }
+    
     .responsive-title {
         font-size: 6vw;
     }
