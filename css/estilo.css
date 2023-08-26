@@ -18,7 +18,6 @@
     src: url('./resources/fonts/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf');
 }
 
-
 header {
     width: 100%;
     height: 30vh;
@@ -34,7 +33,6 @@ footer {
     width: 100%;
 }
 
-
 /*Titulos */
 
 h1 {
@@ -49,7 +47,6 @@ h1 {
     margin-left: 20px;
     margin-top: 80px;
 }
-
 
 h2 {
     color: #ebebe6;
@@ -106,7 +103,6 @@ h3 {
             "titulo"
             "searchbar"
             "area-menu-header";
-
     }
 
     .fondo h3 {
@@ -119,7 +115,6 @@ h3 {
         font-size: 15px;
         margin-bottom: 5px;
         color: #F6F6F6;
-        display: flex;
     }
 
     .titulo {
@@ -195,7 +190,6 @@ h3 {
         width: 20px;
     }
 
-
     .mapa-container .mapa {
         height: 70px;
     }
@@ -225,7 +219,6 @@ h3 {
         gap: 3px;
     }
 }
-
 
 @media (max-width: 370px) {
     header {
@@ -260,7 +253,6 @@ h3 {
         gap: 0;
         margin: 0;
         padding: 1px;
-
     }
 
     .area-menu-header .menu-header li {
@@ -307,9 +299,6 @@ h3 {
         gap: 3px;
     }
 }
-
-
-
 
 /* Header REFORMADO */
 
@@ -443,9 +432,6 @@ h3 {
     margin: 0;
 }
 
-
-
-
 /* Main Index - Body */
 
 .main-contenido-principal {
@@ -465,7 +451,6 @@ h3 {
     display: inline-block;
     padding: 20px;
 }
-
 
 .titulo h1 {
     color: #F6F6F6;
@@ -494,75 +479,6 @@ h3 {
     width: 30%;
 }
 
-/* .carousel {
-    width: 100%;
-    overflow: hidden;
-}
-
-.slide {
-    width: 100%;
-    display: inline-block;
-    animation: carousel-animation 10s infinite;
-}
-
-.slider {
-    display: flex;
-    animation: slide-animation 10s linear infinite;
-    justify-content: center;
-    align-items: center;
-}
-
-.slide img {
-    max-width: 95%;
-    height: auto;
-    padding: 30px;
-}
-
-
-
-@keyframes carousel-animation {
-
-    0%,
-    100% {
-        transform: translateX(0);
-    }
-
-    20% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(-100%);
-    }
-
-    45% {
-        transform: translateX(-100%);
-    }
-
-    50% {
-        transform: translateX(-200%);
-    }
-
-    45% {
-        transform: translateX(-100%);
-    }
-
-    25% {
-        transform: translateX(-100%);
-    }
-
-    20% {
-        transform: translateX(0);
-    }
-
-    0%,
-    100% {
-        transform: translateX(0);
-    }
-
-} 
-
-
 /* Galeria */
 
 .muestra {
@@ -582,7 +498,6 @@ h3 {
     width: 100%;
     margin: 2px;
     margin-bottom: 10px;
-
 }
 
 .container-galeria img {
@@ -684,7 +599,6 @@ h3 {
     grid-area: img-vertical-12;
 }
 
-
 /* Style - Autor */
 
 .perfil {
@@ -761,7 +675,6 @@ h3 {
 .video-1 {
     grid-area: video-1;
 }
-
 
 /* Influencias */
 
@@ -842,7 +755,6 @@ h3 {
 .imagen-influencia-6 {
     grid-area: imagen-influencia-6;
 }
-
 
 /* Contacto */
 
