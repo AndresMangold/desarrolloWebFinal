@@ -53,14 +53,20 @@ h2 {
 h3 {
     color: #d3d3c3;
     font-family: "Work Sans";
-    font-size: 1.375em; 
+    font-size: 1.375em;
     text-align: center;
     padding: 3em 0;
-    letter-spacing: 0.9375em; 
+    letter-spacing: 0.9375em;
+}
+
+h4 {
+    color: #F6F6F6;
+    font-family: "Merryweather";
+    font-size: 20px;
 }
 
 @media (min-width: 768px) and (max-width: 1375px) {
-    .titulo h1{
+    .titulo h1 {
         font-size: 3em;
         color: #F6F6F6;
     }
@@ -105,16 +111,14 @@ h3 {
         color: #d3d3c3;
     }
 
-    .titulo h1 {
+    .responsive-title {
         font-size: 15px;
-        margin-bottom: 5px;
-        color: #F6F6F6;
     }
 
-    .titulo {
+    /*.titulo {
         max-height: 100px;
         justify-content: center;
-    }
+    }*/
 
     .logo {
         max-height: 100px;
@@ -214,7 +218,7 @@ h3 {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 390px) {
     header {
         height: 20vh;
         width: 100%;
@@ -238,12 +242,12 @@ h3 {
             "area-menu-header";
     }
 
-    .titulo h1 {
-        font-size: 1em;
+    .fondo h3 {
+        font-size: 12px;
     }
 
     .area-menu-header .menu-header li a {
-        font-size: 7px;
+        font-size: 12px;
         gap: 0;
         margin: 0;
         padding: 1px;
@@ -291,6 +295,10 @@ h3 {
 
     .contenedor-menu-footer {
         gap: 3px;
+    }
+
+    .responsive-title {
+        font-size: 6vw;
     }
 }
 
@@ -454,8 +462,6 @@ h3 {
     align-items: center;
     width: 100%;
     flex-wrap: nowrap;
-   
-    
 }
 
 .fondo h3 {
@@ -467,9 +473,54 @@ h3 {
     letter-spacing: 15px;
 }
 
-.carousel-item img{
+.carousel-item img {
     height: auto;
     width: 30%;
+}
+
+.titulo-4 {
+    display: flex;
+    max-width: 80vw; 
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.texto-container {
+    flex: 1;
+    text-align: center; 
+}
+
+.titulo-4 h4 {
+    color: #F6F6F6;
+    font-family: "Merryweather";
+    font-size: 30px;
+    text-align: left; 
+    padding: 3em 20px 0 0; 
+    text-transform: uppercase;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.titulo-4 p {
+    color: #ebebe6;
+    padding: 20px 0 20px 0; 
+    text-align: left; 
+    font-size: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.imagen-ladera-titulo-4 img {
+    width: 40vw;
+    height: auto;
+    margin-left: 20px; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    transition: transform 0.4 ease;
+}
+
+.imagen-ladera-titulo-4:hover img{
+    transform: scale(0.9);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Galeria */
