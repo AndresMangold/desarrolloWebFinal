@@ -182,7 +182,7 @@ h4 {
         height: 90px;
         margin-top: 20px;
     }
-    
+
     .menu-footer li a {
         font-size: 10px;
         width: 15px;
@@ -227,6 +227,7 @@ h4 {
     body {
         height: 45%;
         width: 100%;
+        overflow-x: hidden;
     }
 
     footer {
@@ -234,7 +235,7 @@ h4 {
         width: 100%;
     }
 
-    .header{
+    .header {
         margin-bottom: 0;
         margin-top: 0;
     }
@@ -245,7 +246,6 @@ h4 {
             "titulo"
             "searchbar"
             "area-menu-header";
-        max-height: 400px;
     }
 
     .main-contenido-principal .fondo h3 {
@@ -278,10 +278,10 @@ h4 {
         gap: 20px;
     }
 
-    .contenedor-derechos .footer-bottom-text{
+    .contenedor-derechos .footer-bottom-text {
         font-size: 3px;
-    } 
-    
+    }
+
     .footer-bottom-text {
         text-align: center;
         margin-top: 0;
@@ -300,13 +300,14 @@ h4 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 9em;
+        height: 10em;
+        width: auto;
     }
 
     .menu-item .fab {
-        font-size: 12px; 
+        font-size: 12px;
     }
-    
+
     .menu-footer {
         height: 16em;
         display: table-column;
@@ -325,10 +326,10 @@ h4 {
         padding: 0;
     }
 
-    .mapa-copyr{
+    .mapa-copyr {
         margin-top: -5px;
     }
-    
+
     .mapa-container {
         text-align: center;
     }
@@ -347,11 +348,11 @@ h4 {
         align-content: center;
     }
 
-    .input-group{
+    .input-group {
         gap: -2px;
         align-content: center;
     }
-    
+
     .input-group label {
         text-align: center;
     }
@@ -382,8 +383,8 @@ h4 {
         font-size: 8px;
         height: auto;
         padding: 4px 10px;
-        text-align: center; 
-        display: flex; 
+        text-align: center;
+        display: flex;
         align-items: center;
         justify-content: center;
     }
@@ -423,7 +424,63 @@ h4 {
         font-size: 10px;
     }
 
+    .fondo h2 {
+        font-size: 1.5em;
+    }
 
+    .container-perfil-autor {
+        width: 90%; 
+        margin: 0 auto; 
+        margin-bottom: 10px;
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: column; 
+    }
+    
+    .elemento {
+        width: 80%; 
+        margin-bottom: 5px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .foto-perfil,
+    .foto-perfil-2,
+    .video-perfil-1 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: 100%;
+    }
+    
+    .foto-perfil img,
+    .foto-perfil-2 img,
+    .video-perfil-1 {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+    }
+    
+    .texto-perfil,
+    .small-text p {
+        font-size: 10px;
+        padding: 10px;
+        flex-grow: 1;
+        width: 100%; 
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    
+    .video-1 {
+        width: 100%;
+    }
+    
+    .elemento img,
+    .elemento p {
+        margin: 0;
+    }
 }
 
 /* Header REFORMADO */
@@ -598,17 +655,28 @@ h4 {
 }
 
 .carousel-inner .carousel-item {
-    max-width: 80%;
-    height: 80%;
+    width: 100%;
+    height: auto;
     align-content: center;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
-.carousel-inner{
+.carousel-inner {
+    margin: 0 auto;
+}
+
+.container .carousel {
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.carousel-item img {
+    max-width: 40%;
+    height: auto;
     margin: auto;
 }
-
 
 .titulo-4 {
     display: flex;
