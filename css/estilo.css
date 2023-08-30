@@ -481,6 +481,44 @@ h4 {
     .elemento p {
         margin: 0;
     }
+
+    /* Influencias - Responsive */
+    .fondo {
+        display: block; 
+        max-width: 100%; 
+        margin: 0 auto; 
+    }
+
+    .container-grid-img-influencias {
+        display: flex; 
+        flex-direction: column;
+        text-align: column;
+        align-items: center;
+    }
+
+    .container-grid-img-influencias .texto-influencia p{
+        font-size: 12px;
+    }
+
+    .texto-influencia,
+    .imagen-influencia-1,
+    .imagen-influencia-2,
+    .imagen-influencia-3,
+    .imagen-influencia-4,
+    .texto-influencia-3,
+    .imagen-influencia-5,
+    .imagen-influencia-6,
+    .imagen-influencia-7 {
+        margin: 10px 0;
+        width: 50%;
+        height: 70%;
+        box-sizing: border-box; 
+    }
+
+    .influ {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 /* Header REFORMADO */
