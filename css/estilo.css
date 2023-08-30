@@ -1174,19 +1174,41 @@ h4 {
     .container-perfil-autor {
         width: 90%; 
         margin: 0 auto; 
-        margin-bottom: 10px;
+        margin-bottom: 0;
         display: flex; 
         justify-content: center; 
         align-items: center; 
-        flex-direction: column; 
+        flex-direction: column;
+        gap: 0; 
     }
     
     .elemento {
         width: 80%; 
         margin-bottom: 5px;
-        height: 200px;
+        height: 280px;
         display: flex;
         flex-direction: column;
+    }
+
+    .foto-perfil {
+        order: 1;
+    }
+    
+    .small-text {
+        order: 2;
+    }
+    
+    .foto-perfil-2 {
+        order: 4;
+    }
+    
+    .small-text {
+        order: 1;
+        margin-top: 5px;
+    }
+    
+    .video-perfil-1 {
+        order: 5;
     }
     
     .foto-perfil,
@@ -1208,12 +1230,16 @@ h4 {
     .texto-perfil,
     .small-text p {
         font-size: 10px;
-        padding: 10px;
+        padding: 5px;
         flex-grow: 1;
         width: 100%; 
         max-width: 100%;
-        height: auto;
+        height: 70px;
         margin: 0;
+    }
+
+    .texto-perfil{
+        align-self: flex-start;
     }
     
     .video-1 {
@@ -1223,6 +1249,7 @@ h4 {
     .elemento img,
     .elemento p {
         margin: 0;
+        margin-bottom: 10px;
     }
 
     /* Influencias - Responsive */
@@ -1235,12 +1262,29 @@ h4 {
     .container-grid-img-influencias {
         display: flex; 
         flex-direction: column;
-        text-align: column;
+        text-align: center;
         align-items: center;
+        max-width: 60%;
+        object-fit: contain;
     }
 
     .container-grid-img-influencias .texto-influencia p{
         font-size: 12px;
+        text-align: center;
+        margin: 5px; 
+        padding: 10px 0;
+        overflow: auto; 
+        max-height: 150px; 
+    }
+
+    .container-grid-img-influencias .texto-influencia-3 p{
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin: 5px; 
+        padding: 10px 0;
+        overflow: auto; 
+        max-height: 150px; 
     }
 
     .texto-influencia,
@@ -1254,12 +1298,35 @@ h4 {
     .imagen-influencia-7 {
         margin: 10px 0;
         width: 100%;
-        height: 70%;
-        box-sizing: border-box; 
+        box-sizing: border-box;
+    }
+
+    .imagen-influencia-2{
+        display: none;
+    }
+
+    .imagen-influencia-6 img,
+    .imagen-influencia-7 img {
+        object-fit: scale-down;
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    .imagen-influencia-1 img,
+    .imagen-influencia-2 img,
+    .imagen-influencia-3 img,
+    .imagen-influencia-4 img,
+    .texto-influencia-3 img,
+    .imagen-influencia-5 img,
+    .imagen-influencia-6 img,
+    .imagen-influencia-7 img {
+        object-fit: contain;
+        margin-top: 5px;
     }
 
     .influ {
         max-width: 100%;
         height: auto;
+        object-fit: scale-down;
     }
 }
